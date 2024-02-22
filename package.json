@@ -1,0 +1,35 @@
+{
+  "name": "auto-msg-discord",
+  "version": "1.0.0",
+  "description": "Auto msg or cmd to point channel",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "publish-public": "tsc && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylanma1994/auto-msg-discord.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "dylanma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dylanma1994/auto-msg-discord/issues"
+  },
+  "homepage": "https://github.com/Dylanma1994/auto-msg-discord#readme",
+  "dependencies": {
+    "@d-lab/discord-puppet": "^0.6.8"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
