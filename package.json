@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dylanma1994/auto-msg-discord.git"
+    "url": "https://github.com/Dylanma1994/auto-msg-discord.git"
   },
   "keywords": [
     "discord"
